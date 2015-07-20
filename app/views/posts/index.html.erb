@@ -9,9 +9,9 @@
 
     <%= form_for(@new_post) do |f| %>
 
-        <%= f.text_field :comment %>
-
+        <%= f.text_field :comment, :placeholder => "share your thoughts" %>
         <button type="submit" class="btn"> Post </button>
+
     <% end %>
 
     <ul class="comments">
